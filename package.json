@@ -1,0 +1,27 @@
+{
+  "name": "sequelize-themes",
+  "description": "In this repository, we are going to learn intermediate and complex knowledge of Sequelize, using examples based on a defined database structure. To consult the official sequelize manual visit: https://sequelize.org/docs/v6/getting-started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidDemetrio/Sequelize-themes.git"
+  },
+  "keywords": [
+    "sequelize",
+    "learn"
+  ],
+  "author": "David Demetrio López Paz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.1"
+  }
+}
